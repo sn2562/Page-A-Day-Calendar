@@ -1,16 +1,12 @@
+
+
+try {
+
+} catch(e) {
+}
+
 window.onload = function () {
-	var canvas = createCanvas();
-	//				document.body.appendChild(canvas);
-	try {
-		var img_png_src = canvas.toDataURL();
-		var img = document.createElement("IMG");
-		img.src = img_png_src;
-		document.body.appendChild(img);//imgを追加
-		console.log();
 
-
-	} catch(e) {
-	}
 };
 
 //画像の生成

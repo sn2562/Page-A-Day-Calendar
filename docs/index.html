@@ -15,13 +15,17 @@
 			}
 		</style>
 
-		<script>
-		</script>
-
 		<script src="script.js"></script>
 
 	</head>
 	<body>
+		<script>
+			var canvas = createCanvas();
+			var img_png_src = canvas.toDataURL();
+			var img = document.createElement("IMG");
+			img.src = img_png_src;
+			document.body.appendChild(img);//imgを追加
+		</script>
 	</body>
-	
+
 </html>
